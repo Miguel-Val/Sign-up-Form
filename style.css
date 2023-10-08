@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+* {
+  font-family: "Young Serif", serif;
+  /* font-weight: bold; */
+  margin: 0;
+}
+
+.container {
+  
+  margin: auto;
+  display: flex;
+  background-color: #fffff0;
+}
+
+.title {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 50px;
+  color: #5d461b;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 400px;
+    padding-left: 50px;
+    gap: 23px;
+    margin-bottom: 100px;
+}
+.lab1{
+    display: flex;
+    flex-direction: row;
+    gap: 243px;
+}
+.lab2{
+    display: flex;
+    flex-direction: row;
+    gap: 216px;
+}
+
+.lab3{
+    display: flex;
+    flex-direction: row;
+    gap: 254px;
+}
+
+.firstLast, .emailPhone, .passPassConfirm{
+    display: flex;
+    gap: 150px;
+    
+    
+}
+.
+
+input{
+    background-color: #fffff0;
+    
+}
+
+img {
+  padding-right: 100px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+.img {
+  background-color: #f5e4c3;
+}
+
+.catch {
+  padding-top: 100px;
+  padding-bottom: 115px;
+  font-size: 20px;
+  color: #5d461b;
+  text-align: center;
+}
