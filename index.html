@@ -1,65 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <title>Sign-up Form</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="img">
-        <div class="title">Nomad Couple</div>
-        <img src="undraw_trip_re_f724.svg" alt="" />
-        <div class="catch">Love Knows No Borders. Sign Up and Find Yours.</div>
-      </div>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>Sign-up Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="fadeIn">
+            <div class="container">
+                <div class="img">
+                    <div class="title">Nomad Couple</div>
+                    <img src="undraw_trip_re_f724.svg" alt="" />
+                    <div class="catch">
+                        Love Knows No Borders. Sign Up and Find Yours.
+                    </div>
+                </div>
 
-      <div class="forms">
-        <div class="topText">Your Next Adventure Begins Here!</div>
-        <form action="example.com/path" method="post">
-          
-          <div class="lab1">
-            <label for="firstName">First Name</label>
-            <label for="lastName">Last Name</label>
-          </div>
-          <div class="firstLast">
-            <input type="text" class="firstName" />
-            <input type="text" class="lastName" />
-          </div>
-          <div class="lab2">
-            <label for="userEmail">Email Address</label>
-            <label for="phone">Phone</label>
-          </div>
+                <div class="forms slideRight">
+                    <div class="topText">Your Next Adventure Begins Here!</div>
+                    <form action="example.com/path" method="post">
+                        <div class="lab1">
+                            <label for="firstName">First Name</label>
+                            <label for="lastName">Last Name</label>
+                        </div>
+                        <div class="firstLast">
+                            <input type="text" class="firstName" />
+                            <input type="text" class="lastName" />
+                        </div>
+                        <div class="lab2">
+                            <label for="userEmail">Email Address</label>
+                            <label for="phone">Phone</label>
+                        </div>
 
-          <div class="emailPhone">
-            <input type="email" id="userEmail" name="email" />
+                        <div class="emailPhone">
+                            <input type="email" id="userEmail" name="email" />
 
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            />
-          </div>
-          <div class="lab3">
-            <label for="Password">Password</label>
-            <label for="passwordConfirm">Confirm Password</label>
-          </div>
-          <div class="passPassConfirm">
-            <input type="password" class="Password" name="password" />
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            />
+                        </div>
+                        <div class="lab3">
+                            <label for="Password">Password</label>
+                            <label for="passwordConfirm"
+                                >Confirm Password</label
+                            >
+                        </div>
+                        <div class="passPassConfirm">
+                            <input type="password" id="Password" />
 
-            <input
-              type="password"
-              class="passwordConfirm"
-              name="confrimPassword"
-            />
-          </div>
-        </form>
-        <div class="button">
-          <button type="submit">Create Account</button>
-          <div class="login">Already have an account..? LOG IN</div>
+                            <input type="password" id="passwordConfirm" />
+                        </div>
+                    </form>
+                    <div class="button">
+                        <button type="submit">Create Account</button>
+                        <div class="login">
+                            Already have an account..? LOG IN
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </body>
+        <script src="index.js"></script>
+    </body>
 </html>
